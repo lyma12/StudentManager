@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".form">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="80dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="200dp">
+
+        <EditText
+            android:id="@+id/et_mssv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="MSSV"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_ho_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Họ tên"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/at_ngay_sinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Ngày sinh"
+            android:minHeight="48dp" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_que_quan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Quê quán"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_luu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:text="Lưu" />
+
+    </LinearLayout>
+
+</FrameLayout>
